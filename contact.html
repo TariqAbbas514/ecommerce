@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us Form</title>
+	<link rel="stylesheet" type="text/css" href="css/htmlform.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container-fluid">
+	<div class="menubar">
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Set logo image here--->
+  <img src="img/logo.png" width="80px"; height="60px;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <span class="navbar-text">
+     <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <!-- Dropdown menu -->
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Shop
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="shop.html">Women's and Men's Fashion</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="shoe.html">Shoes</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+    </span>
+     <i class="fa fa-user-circle" aria-hidden="true"></i>
+    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+  </div>
+</nav>
+</div>
+<div class="row">
+<form action="welcome.html" class="contact-form">
+	<h1>Contact Form</h1>
+	<label>First Name</label>
+	<input type="text" name="firstname" id="fname" placeholder="Enter your first name" required><br>
+	<label>Last Name</label>
+	<input type="text" name="lastname" id="lname" placeholder="Enter your last name" required><br>
+	<label>Email Address</label>
+	<input type="email" name="Email" id="email" placeholder="Enter your email Address" required><br>
+	<label>Message</label>
+	<textarea placeholder="Type your Message/comment here" required></textarea><br>
+<button class="btn">submit</button>
+</form>
+</div>
+<!---- Now we create footer--->
+<div class="footer">
+	<div class="footer-text">
+		Copyright &copy; 2020 Reserved by this website.
+	</div>
+
+</div>
+</div>
+</body>
+</html>

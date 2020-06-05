@@ -1,0 +1,99 @@
+.navbar{
+	background-color: green !important;
+}
+	.navbar-nav .nav-link{
+	color: white !important;
+	font-weight: bold;
+}
+.navbar-nav .nav-link:hover{
+	background-color: orange !important;
+	color: green !important;
+}
+
+
+.footer{
+	margin-top: 1000px;
+	background-color: green !important;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-o-up{
+	font-size: 55px !important;
+	margin-right: 10px;
+	color: green;
+}
+.fa-user-circle,.fa-cart-plus{
+	font-size: 32px !important;
+	color: white;
+	margin-left: 10px;
+}
+.heading3{
+	color: green;
+}
+.card1:hover .fa-truck,.card1:hover .heading3,  .card2:hover .fa-headphones,.card2:hover .heading3, .card3:hover .fa-thumbs-o-up,.card3:hover .heading3{
+	color: white !important;
+}
+.card1,.card2,.card3{
+	display: flex;
+	width:  300px;
+	height:  70px;
+	background-color: white;
+	box-shadow: 2px 4px 5px grey;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	border-radius: 50px;
+}
+.card1:hover,.card2:hover,.card3:hover{
+ transform: scale(1.05);
+ background-color: green;
+}
+.maincard{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+.card{
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+	width: 300px;
+	box-shadow: 2px 2px 5px grey;
+
+}
+.card:hover{
+ transform: scale(1.05);
+}
+.newarrive,.Featured{
+	text-align: center;
+	margin-top: 10px;
+	color: green;
+	background-color: orange;
+	border-radius: 10px;
+}
+
+.card-text{
+	font-weight: bold;
+}
+/*.card-title, .card-text{
+	color: green;
+}*/
+.card:hover .card-title,.card:hover .card-text{
+	color: green;
+}
+.btn-primary{
+	width: 100%;
+	background-color: green;
+	box-shadow: 1px 0px 5px grey;
+	border-radius: 50px;
+	font-weight: bold;
+}
+
+
